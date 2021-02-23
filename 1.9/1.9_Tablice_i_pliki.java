@@ -1,4 +1,5 @@
 import java.util.Random;
+import java.util.*;
 
 class Tablice{
     public static void main(String[] a){
@@ -14,6 +15,14 @@ class Tablice{
             tab1[i] = r.nextInt(6)+1;
         }
 		
-		int tab2[] = new int[10];
+		FileReader fr = new FileReader("uczniowie.txt");
+        BufferedReader br = new BufferedReader(fr);
+		String textLine = br.readLine();
+        do{
+            System.out.println(textLine);
+			textLine = br.readLine();
+        }while (textLine != null);
+
+        br.close();
     }
 }
