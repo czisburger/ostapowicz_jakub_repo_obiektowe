@@ -6,5 +6,6 @@ class TablicaDwuwymiarowa{
         for(int i=0;i<tab.length;i++){
             System.out.println(tab[i]);
         }
+        int [][] tab2d = new int[5][2];
     }
 }
