@@ -6,9 +6,9 @@ class Rekurencja{
         //System.out.println(zwracamPotegeWprowadzonejLiczby(4));
         int wartosc = sumaDwochNajwiekszychLiczb(5,6,3);
         System.out.println(wartosc);
-        wartosc = sumaDwochNajwiekszychLiczb(5,6,3);
+        wartosc = sumaDwochNajwiekszychLiczb(8,7,6);
         System.out.println(wartosc);
-        wartosc = sumaDwochNajwiekszychLiczb(5,6,3);
+        wartosc = sumaDwochNajwiekszychLiczb(1,9,4);
         System.out.println(wartosc);
     }
 
@@ -21,6 +21,7 @@ class Rekurencja{
         }else if(c>b && a>b){
             suma = c+a;
         }
+        return suma;
     }
 
     private static int zwracamPotegeWprowadzonejLiczby(int liczba){
