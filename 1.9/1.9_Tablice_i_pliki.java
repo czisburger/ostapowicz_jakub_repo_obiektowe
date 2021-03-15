@@ -7,10 +7,10 @@ class Tablice{
 
     private static void tablicaInt(){
         Random r = new Random();
-        int [] tab1 = new int [5];
+        int [] tab1 = new int [10];
 
         for(int i=0;i<tab1.length;i++){
-            tab1[i] = r.nextInt(100)+1;
+            tab1[i] = r.nextInt(6)+1;
         }
 
         for(int i=0;i<tab1.length;i++){
