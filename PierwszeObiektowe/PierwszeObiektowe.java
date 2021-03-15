@@ -1,5 +1,5 @@
-class PierwszyObiektowe{
-    public static void main(String[] args){
+class PierwszeObiektowe{
+    public static void main(String[] arg){
         ObiektPudelko op = new ObiektPudelko();
         System.out.println("Domyslna wartosc: "+op.wysokosc);
 
