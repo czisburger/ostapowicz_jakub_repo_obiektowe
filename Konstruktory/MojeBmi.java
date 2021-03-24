@@ -10,4 +10,12 @@ class MojeBmi{
     public double mojeBmi(){
         return waga/((double)wzrost/100*(double)waga/100);
     }
+
+    public void setWzrost(int wzrost){
+        this.wzrost = wzrost;
+    }
+
+    public void setWaga(int waga){
+        this.waga = waga;
+    }
 }
