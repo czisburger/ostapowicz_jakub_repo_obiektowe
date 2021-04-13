@@ -22,5 +22,10 @@ class Triangle{
         System.out.println("Czwarte pole trojkata: "+(bok1*bok2*bok3)/promien);
     }
 
+    //Kon - pole trójkąta z trzema bokami i promieniem koła w trojkącie
+    public Triangle(int bok1, int bok2, int bok3, int promienkola, int pusty, int pusty2){
+        System.out.println("Piąte pole trojkata: "+promienkola*(bok1+bok2+bok3)/2);
+    }
+
     
 }

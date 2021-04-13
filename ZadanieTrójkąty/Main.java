@@ -6,6 +6,6 @@ class Main{
         Triangle t2 = new Triangle(6,2,40);
         Triangle t3 = new Triangle(3,60,50,70);
         Triangle t4 = new Triangle(3,9,6,5,0);
-        
+        Triangle t5 = new Triangle(2,7,4,3,0,0);
     }
 }
