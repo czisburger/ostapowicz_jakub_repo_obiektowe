@@ -1,8 +1,14 @@
 
 
 class Triangle{
+
+    //Kon - pole trójkąta z wysokością i podstawą
     public Triangle(int wysokosc, int podstawa){
-        //Kon - pole trójkąta z wysokością i podstawą
-        System.out.println("Pole trojkata: "+wysokosc*podstawa/2);
+        System.out.println("Pierwsze pole trojkata: "+wysokosc*podstawa/2);
+    }
+
+    //Kon - pole trójkąta z dwoma bokami i sinusem
+    public Triangle(int bok1, int bok2, int sin){
+        System.out.println("Drugie pole trojkata: "+bok1/2*bok2*sin);
     }
 }
