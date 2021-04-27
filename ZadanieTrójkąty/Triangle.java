@@ -31,4 +31,5 @@ class Triangle{
     public Triangle(int sin1, int sin2, int sin3, int promien, int pusty, int pusty2, int pusty3){
         System.out.println("Szóste pole trojkata: "+2*(promien*promien)*sin1*sin2*sin3);
     }
+
 }

@@ -12,7 +12,7 @@ class OstapowiczJakub{
 
         int tab [] = t.getTab();
         for(int i=0;i<tab.length;i++){
-            System.out.print(tab[i]+" , ");
+            System.out.print(tab[i]+", ");
         }
         
     }
